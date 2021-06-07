@@ -102,13 +102,18 @@ h3 {
 @media only screen and (max-width: 375px) {
   body {
     width: 375px;
+    height: 2100px;
   }
   #main {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 325px;
+    height: 2000px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
   }
-  .mobile {
-    width: 325px;
+  .item.mobile {
     margin-bottom: 20px;
   }
   #one {
@@ -117,14 +122,25 @@ h3 {
   }
   #two {
     height: 240px;
+    width: 325px;
   }
   #three {
     height: 220px;
+    width: 325px;
   }
   #four {
     height: 380px;
+    width: 325px;
   }
   #five {
     height: 440px;
+    width: 325px;
+  }
+  .person {
+    margin-bottom: 15px;
+  }
+  .smallgap,
+  .biggap {
+    margin-bottom: 10px;
   }
 }
