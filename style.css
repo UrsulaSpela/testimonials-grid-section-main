@@ -21,6 +21,7 @@ body {
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 25px;
+  margin-bottom: 50px;
 }
 .item {
   border-radius: 10px;
@@ -31,6 +32,7 @@ body {
   grid-row: 1/2;
   background: hsl(263, 55%, 52%);
   color: white;
+  height: 280px;
 }
 #two {
   grid-column: 3/4;
@@ -43,12 +45,14 @@ body {
   grid-row: 2/3;
   background: hsl(0, 0%, 100%);
   color: hsl(217, 19%, 35%);
+  height: 265px;
 }
 #four {
   grid-column: 2/4;
   grid-row: 2/3;
   background: hsl(219, 29%, 14%);
   color: white;
+  height: 265px;
 }
 #five {
   grid-column: 4/5;
@@ -58,12 +62,34 @@ body {
 }
 .name {
   font-size: 14px;
+  padding-left: 15px;
 }
 .verified {
   opacity: 0.5;
   font-size: 13px;
+  padding-left: 15px;
 }
 .review {
   opacity: 0.7;
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.person {
+  display: flex;
+  margin-bottom: 20px;
+}
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.smallgap {
+  margin-bottom: 15px;
+}
+.biggap {
+  margin-bottom: 25px;
+}
+h3 {
+  letter-spacing: 1px;
 }
